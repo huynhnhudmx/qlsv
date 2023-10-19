@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/custom2"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="108dp"
+        android:layout_height="97dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/hinh1"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp" />
+
+    <Button
+        android:id="@+id/btnsv"
+        android:layout_width="208dp"
+        android:layout_height="79dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="20dp"
+        android:text="Sinh Viên"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btngv"
+        android:layout_width="208dp"
+        android:layout_height="79dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="120dp"
+        android:text="Giảng Viên"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnkh"
+        android:layout_width="208dp"
+        android:layout_height="79dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="130dp"
+        android:text="Khoa"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="412dp"
+        android:layout_height="667dp"
+        android:background="#2052b69a"
+        android:orientation="vertical"
+        android:outlineSpotShadowColor="@color/black">
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="15px">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10px"
+                android:gravity="center"
+                android:text="Tạo tài khoản Sinh Viên"
+                android:textSize="60px"
+                android:textStyle="bold" />
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MSSV : "
+                    android:textSize="40px" />
+
+                <EditText
+                    android:id="@+id/tch_add_msgv"
+                    android:layout_width="250dp"
+                    android:layout_height="50dp"
+
+                    android:hint="VD : 21CTHA0000" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mật Khẩu : "
+                    android:textSize="40px" />
+
+                <EditText
+                    android:id="@+id/tch_add_mkdn"
+                    android:layout_width="250dp"
+                    android:layout_height="50dp"
+                    android:hint="từ 8 ký tự" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Họ và tên : "
+                    android:textSize="40px" />
+
+                <EditText
+                    android:id="@+id/tch_add_hoten"
+                    android:layout_width="250dp"
+                    android:layout_height="50dp"
+                    android:hint="HỌ VÀ TÊN SINH VIÊN" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Giới tính: "
+                    android:textSize="40px" />
+
+                <EditText
+                    android:id="@+id/tch_add_gioitinh"
+                    android:layout_width="250dp"
+                    android:layout_height="50dp"
+                    android:hint="Giới tính SINH VIÊN" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ngày Sinh : "
+                    android:textSize="40px" />
+
+                <EditText
+                    android:id="@+id/tch_add_ngaysinh"
+                    android:layout_width="250dp"
+                    android:layout_height="50dp"
+                    android:hint="Ngày Sinh" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nơi Sinh : "
+                    android:textSize="40px" />
+
+                <EditText
+                    android:id="@+id/tch_add_noisinh"
+                    android:layout_width="250dp"
+                    android:layout_height="50dp"
+                    android:hint="Nơi Sinh" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Địa chỉ: "
+                    android:textSize="40px" />
+
+                <EditText
+                    android:id="@+id/tch_add_diachi"
+                    android:layout_width="250dp"
+                    android:layout_height="50dp"
+                    android:hint="Địa Chỉ" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Số Điện Thoại"
+                    android:textSize="40px" />
+
+                <EditText
+                    android:id="@+id/tch_add_sdt"
+                    android:layout_width="250dp"
+                    android:layout_height="50dp"
+                    android:hint="1234689" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mã Lớp"
+                    android:textSize="40px" />
+
+                <EditText
+                    android:id="@+id/tch_add_malop"
+                    android:layout_width="250dp"
+                    android:layout_height="50dp"
+                    android:hint="CCNTT21A" />
+            </TableRow>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btn_tch_add"
+                    android:layout_width="150dp"
+                    android:layout_height="70dp"
+                    android:text="Thêm" />
+                <Space
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"/>
+
+                <Button
+                    android:id="@+id/btn_tch_cancel"
+                    android:layout_width="150dp"
+                    android:layout_height="70dp"
+                    android:text="Hủy" />
+            </LinearLayout>
+        </TableLayout>
+    </LinearLayout>
+
+</LinearLayout>
