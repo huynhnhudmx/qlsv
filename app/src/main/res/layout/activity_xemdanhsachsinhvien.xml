@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".xemdanhsachsinhvien"
+    android:background="#CCECF4"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="401dp"
+        android:layout_height="55dp"
+        android:gravity="center"
+        android:text="DANH SÁCH SINH VIÊN"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_dslop"
+        android:background="#F6C097"
+        android:layout_width="match_parent"
+        android:layout_height="489dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btntimsv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:background="@drawable/customsv"
+            android:text="TÌM"
+            android:textColor="#0D46ED"
+            app:backgroundTint="@null" />
+
+        <Button
+            android:id="@+id/btnthemsv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:background="@drawable/customsv"
+            android:layout_marginTop="10dp"
+            app:backgroundTint="@null"
+            android:textColor="#0D46ED"
+            android:text="THÊM" />
+
+        <Button
+            android:id="@+id/btnsuasv"
+            android:layout_marginTop="-105dp"
+            android:layout_marginLeft="240dp"
+            android:textColor="#0D46ED"
+            android:background="@drawable/customsv"
+            android:layout_width="wrap_content"
+            app:backgroundTint="@null"
+            android:layout_height="wrap_content"
+            android:text="SỬA"/>
+
+        <Button
+            android:id="@+id/btnxoasv"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:background="@drawable/customsv"
+            android:layout_marginLeft="240dp"
+            android:textColor="#0D46ED"
+            app:backgroundTint="@null"
+            android:layout_marginTop="10dp"
+            android:text="XÓA" />
+
+        <Button
+            android:id="@+id/btnthoatsvien"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:background="@drawable/customsv"
+            android:layout_marginLeft="150dp"
+            app:backgroundTint="@null"
+            android:textColor="#0D46ED"
+            android:layout_marginTop="10dp"
+            android:text="THOÁT" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

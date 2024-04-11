@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".thongtinsv">
+
+    <LinearLayout
+        android:layout_width="423dp"
+        android:layout_height="775dp"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+
+        <LinearLayout
+            android:layout_width="412dp"
+            android:layout_height="667dp"
+            android:background="#2052b69a"
+            android:orientation="vertical"
+
+            android:outlineSpotShadowColor="@color/black">
+
+            <TextView
+                android:layout_width="373dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="THÔNG TIN GIẢNG VIÊN VIÊN"
+                android:textColor="#00BCD4"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MSGV : "
+                    android:textSize="40px" />
+
+                <TextView
+                    android:id="@+id/msgvud"
+                    android:layout_width="250dp"
+                    android:layout_height="50dp"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Họ và tên : "
+                    android:textSize="40px" />
+
+                <TextView
+                    android:id="@+id/hotenud"
+                    android:layout_width="250dp"
+                    android:layout_height="50dp"
+                    android:text="" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Trình độ: "
+                    android:textSize="40px" />
+
+                <TextView
+                    android:id="@+id/trinhdoud"
+                    android:layout_width="250dp"
+                    android:layout_height="50dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mã lớp : "
+                    android:textSize="40px" />
+
+                <TextView
+                    android:id="@+id/malopudate"
+                    android:layout_width="250dp"
+                    android:layout_height="50dp" />
+            </TableRow>
+
+
+
+
+            <Button
+                android:id="@+id/bntudgv"
+                android:layout_width="121dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/khung1"
+                android:text="UPDATE"
+                app:backgroundTint="@null" />
+            <Button
+                android:id="@+id/btngvql"
+                android:layout_width="121dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/khung1"
+                android:text="QUẢN LÝ ĐIÊM"
+                app:backgroundTint="@null" />
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

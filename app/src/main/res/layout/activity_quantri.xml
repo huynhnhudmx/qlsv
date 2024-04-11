@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F3BF"
+    android:orientation="vertical"
+    tools:context=".quantri">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="146dp"
+        android:layout_marginTop="40dp"
+        android:text="CHÀO MỪNG ĐẾN VỚI HỆ THỐNG QUẢN TRỊ CỦA TRƯỜNG"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_qtrilop"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/custom5"
+        android:text="QUẢN LÝ LỚP"
+        android:textColor="#F30808"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="@null" />
+
+    <Button
+        android:id="@+id/btn_qtrisv"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/custom5"
+        android:text="QUẢN LÝ SINH VIÊN"
+        android:textColor="#F30808"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="@null" />
+
+    <Button
+        android:id="@+id/btn_qtrikhoa"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/custom5"
+        android:text="QUẢN LÝ KHOA"
+        android:textColor="#F30808"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="@null" />
+
+</LinearLayout>

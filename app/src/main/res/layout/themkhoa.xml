@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="412dp"
+        android:layout_height="667dp"
+        android:background="#2052b69a"
+        android:orientation="vertical"
+        android:outlineSpotShadowColor="@color/black">
+
+
+        <TableLayout
+            android:layout_width="400dp"
+            android:layout_height="272dp"
+            android:layout_marginStart="15px"
+            android:background="#CCBE7E">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="-15px"
+                android:gravity="center"
+                android:text="THÊM DANH SÁCH KHOA"
+                android:textSize="60px"
+                android:textStyle="bold" />
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mã khoa  : "
+                    android:textSize="40px" />
+
+                <EditText
+                    android:id="@+id/themmkhoa"
+                    android:layout_width="250dp"
+                    android:layout_height="50dp"
+                    android:hint="VD :CNTS" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tên khoa : "
+                    android:textSize="40px" />
+
+                <EditText
+                    android:id="@+id/ten_khoa"
+                    android:layout_width="250dp"
+                    android:layout_height="50dp"
+                    android:hint="Khoa công nghệ - thủy sản" />
+            </TableRow>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btn_themkhoa"
+                    android:layout_width="150dp"
+                    android:layout_height="70dp"
+                    android:backgroundTint="#255FF1"
+                    android:text="Thêm" />
+
+                <Space
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/btn_huytkhoa"
+                    android:layout_width="150dp"
+                    android:layout_height="70dp"
+                    android:backgroundTint="#587006"
+                    android:text="Hủy" />
+            </LinearLayout>
+        </TableLayout>
+    </LinearLayout>
+
+</LinearLayout>

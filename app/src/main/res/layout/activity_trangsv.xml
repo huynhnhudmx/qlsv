@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hinhnen"
+    tools:context=".MainActivity3">
+
+    <ImageButton
+        android:id="@+id/imge1"
+        android:layout_width="142dp"
+        android:layout_height="148dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/img_3">
+
+    </ImageButton>
+
+    <TextView
+        android:layout_width="153dp"
+        android:layout_height="29dp"
+        android:layout_marginLeft="-150dp"
+        android:layout_marginTop="220dp"
+        android:gravity="center"
+        android:text="THỜI KHÓA BIỂU"
+        android:textColor="#F30B0B"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/imge2"
+        android:layout_marginLeft="30dp"
+        android:layout_width="142dp"
+        android:layout_height="148dp"
+        android:layout_marginTop="100dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/img_4">
+
+    </ImageButton>
+
+    <TextView
+        android:layout_width="153dp"
+        android:layout_height="29dp"
+        android:layout_marginLeft="-150dp"
+        android:layout_marginTop="225dp"
+        android:gravity="center"
+        android:text="SỔ SINH VIÊN"
+        android:textColor="#F60C0C"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/imge3"
+        android:layout_width="142dp"
+        android:layout_height="148dp"
+        android:layout_marginLeft="-325dp"
+        android:layout_marginTop="300dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/hinhtkb">
+
+    </ImageButton>
+
+    <TextView
+        android:layout_width="153dp"
+        android:layout_height="29dp"
+        android:layout_marginLeft="-150dp"
+        android:layout_marginTop="410dp"
+        android:gravity="center"
+        android:text="LỊCH THI"
+        android:textColor="#F60C0C"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/imge4"
+        android:layout_width="142dp"
+        android:layout_height="148dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="300dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/img_6">
+
+    </ImageButton>
+
+    <TextView
+        android:layout_width="153dp"
+        android:layout_height="29dp"
+        android:layout_marginLeft="-150dp"
+        android:layout_marginTop="410dp"
+        android:gravity="center"
+        android:text="QL ĐÀO TẠO"
+        android:textColor="#F60C0C"
+        android:textStyle="bold" />
+
+
+    <ImageButton
+        android:id="@+id/imge5"
+        android:layout_marginLeft="-320dp"
+        android:layout_width="142dp"
+        android:layout_height="148dp"
+        android:layout_marginTop="500dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/img_7">
+
+    </ImageButton>
+
+    <TextView
+        android:layout_width="153dp"
+        android:layout_height="29dp"
+        android:layout_marginLeft="-150dp"
+        android:layout_marginTop="620dp"
+        android:gravity="center"
+        android:text="QL SỔ LÊN LỚP"
+        android:textColor="#F60C0C"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/imge6"
+        android:layout_marginLeft="35dp"
+        android:layout_width="142dp"
+        android:layout_height="148dp"
+        android:layout_marginTop="500dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/img_8">
+
+    </ImageButton>
+
+    <TextView
+        android:layout_width="153dp"
+        android:layout_height="29dp"
+        android:layout_marginLeft="-150dp"
+        android:layout_marginTop="620dp"
+        android:gravity="center"
+        android:text="VIỆC LÀM SINH VIÊN"
+        android:textColor="#F60C0C"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>

@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">QLSV</string>
+    <string name="emptitle">Student Marks Calculation System</string>
+    <string name="stname">Student Name</string>
+    <string name="marks1">Marks 1</string>
+    <string name="marks2">Marks 2</string>
+    <string name="marks3">Marks 3</string>
+
+    <string name="total">Total</string>
+    <string name="avg">Average</string>
+    <string name="loai">Grade</string>
+
+
+    <string name="btnok">Ok</string>
+    <string name="btnclear">Clear</string>
 </resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#068E33"
+    tools:context=".Class_list"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="322dp"
+        android:layout_height="55dp"
+        android:gravity="center"
+        android:text="DANH SÁCH LỚP"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_lop"
+        android:layout_width="79dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="-50dp"
+        android:src="@drawable/img_2" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_dslopsv"
+        android:layout_width="match_parent"
+        android:background="#D4F3CD"
+        android:layout_height="489dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/dslop_tim"
+            android:layout_marginLeft="80dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TÌM"/>
+        <Button
+            android:id="@+id/dslop_them"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="80dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="THÊM"/>
+
+        <Button
+            android:id="@+id/dslop_sua"
+            android:layout_marginTop="-105dp"
+            android:layout_marginLeft="240dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SỬA"/>
+
+        <Button
+            android:id="@+id/btnxoann"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="10dp"
+            android:text="XÓA" />
+
+        <Button
+            android:id="@+id/btnthoatnn"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="10dp"
+            android:text="THOÁT" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

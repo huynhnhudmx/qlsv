@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BDFBF2"
+    android:orientation="vertical"
+    tools:context=".xemdskhoa">
+
+    <TextView
+        android:layout_width="322dp"
+        android:layout_height="55dp"
+        android:gravity="center"
+        android:text="DANH SÁCH KHOA"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_lop"
+        android:layout_width="79dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="-50dp"
+        android:src="@drawable/img_2" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_dskhoa"
+        android:layout_width="match_parent"
+        android:background="#DCD8C1"
+        android:layout_height="489dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btntim"
+            android:layout_marginLeft="80dp"
+            android:layout_width="wrap_content"
+            android:backgroundTint="#6E1471"
+            android:layout_height="wrap_content"
+            android:text="TÌM"/>
+        <Button
+            android:id="@+id/btnthem"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="80dp"
+            android:backgroundTint="#6E1471"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="THÊM"/>
+
+        <Button
+            android:id="@+id/btnsua"
+            android:layout_marginTop="-105dp"
+            android:layout_marginLeft="240dp"
+            android:backgroundTint="#6E1471"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SỬA"/>
+
+        <Button
+            android:id="@+id/btnxoa"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_marginLeft="240dp"
+            android:backgroundTint="#6E1471"
+            android:layout_marginTop="10dp"
+            android:text="XÓA" />
+
+        <Button
+            android:id="@+id/btnthoat"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="150dp"
+            android:backgroundTint="#6E1471"
+            android:layout_marginTop="10dp"
+            android:text="THOÁT" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="310dp"
+        android:background="#D6D094"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:gravity="center"
+            android:text="XÁC NHẬN XÓA TÊN KHOA"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            android:layout_marginStart="-280dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:text="Xác nhận sẽ xóa khoa này ?"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/edtnhap"
+            android:layout_width="269dp"
+            android:layout_height="71dp"
+            android:layout_marginStart="-260dp"
+            android:layout_marginTop="150dp"
+            android:hint="Nhập Mã khoa để xác nhận xóa"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnxacnhan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-100dp"
+            android:backgroundTint="#A86F6F"
+            android:layout_marginLeft="-120dp"
+            android:layout_marginTop="240dp"
+            android:text="Xác nhận" />
+
+        <Button
+            android:id="@+id/btnhuy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-230dp"
+            android:backgroundTint="#A86F6F"
+            android:layout_marginLeft="-120dp"
+            android:layout_marginTop="240dp"
+            android:text="Hủy" />
+
+    </LinearLayout>
+
+</LinearLayout>

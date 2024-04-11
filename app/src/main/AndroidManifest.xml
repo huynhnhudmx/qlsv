@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" >
+    xmlns:tools="http://schemas.android.com/tools">
 
     <application
         android:allowBackup="true"
@@ -11,7 +11,64 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.QLSV"
-        tools:targetApi="31" >
+        tools:targetApi="31">
+        <activity
+            android:name=".chamdiemsv"
+            android:exported="false" />
+        <activity
+            android:name=".bangdiem"
+            android:exported="false" />
+        <activity
+            android:name=".hienthidanhsachtimkhoa"
+            android:exported="false" />
+        <activity
+            android:name=".xemdskhoa"
+            android:exported="false" />
+        <activity
+            android:name=".quantri"
+            android:exported="false" />
+        <activity
+            android:name=".hienthidanhsachtim"
+            android:exported="false" />
+        <activity
+            android:name=".xemdanhsachsinhvien"
+            android:exported="false" />
+        <activity
+            android:name=".class_view"
+            android:exported="false" />
+        <activity
+            android:name=".Class_list"
+            android:exported="false" />
+        <activity
+            android:name=".danhsachlop_gv"
+            android:exported="false" />
+        <activity
+            android:name=".Selectgiangvien"
+            android:exported="false" />
+        <activity
+            android:name=".selectgv"
+            android:exported="false" />
+        <activity
+            android:name=".selectgiangvien"
+            android:exported="false" />
+        <activity
+            android:name=".danhsachsv"
+            android:exported="false" />
+        <activity
+            android:name=".danhsachsv_gv"
+            android:exported="false" />
+        <activity
+            android:name=".SelectGiangVien"
+            android:exported="false" />
+        <activity
+            android:name=".trangsv"
+            android:exported="false" />
+        <activity
+            android:name=".updatesv"
+            android:exported="false" />
+        <activity
+            android:name=".thongtinsv"
+            android:exported="false" />
         <activity
             android:name=".MainActivity3"
             android:exported="false" />
@@ -21,7 +78,7 @@
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

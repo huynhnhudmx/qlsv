@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:layout_marginTop="200dp"
+    android:background="#CDFFA5"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:text="Nhập Mã Lớp Cần Tìm"
+        android:textAlignment="center"
+        android:textColor="#FF0D0D"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/nhapmaloptim"
+        android:layout_width="314dp"
+        android:layout_height="66dp"
+        android:hint = "Mã Lớp Cần Tìm"
+        android:background="@color/white"
+        android:layout_marginLeft="40dp" />
+    <Button
+        android:id="@+id/btn_timmalop"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#0955C6"
+        android:text="TÌM"
+        android:layout_marginLeft="60dp" />
+    <Button
+        android:id="@+id/btn_huytimmalop"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="HỦY"
+        android:backgroundTint="#0955C6"
+        android:layout_marginTop="-50dp"
+        android:layout_marginLeft="250dp"/>
+
+</LinearLayout>

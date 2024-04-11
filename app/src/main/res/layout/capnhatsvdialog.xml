@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:orientation="vertical"
+        android:background="#3293EFEC">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bạn có chắc muốn cập nhật không?"
+            android:textColor="#F44336"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp"
+            android:gravity="center">
+            <Button
+                android:id="@+id/buttonyes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="YES"
+                app:backgroundTint="@null"
+                android:background="@drawable/khung1"
+                android:textSize="24dp"
+                android:layout_marginRight="100dp">
+            </Button>
+            <Button
+                android:id="@+id/buttonno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NO"
+                app:backgroundTint="@null"
+                android:textSize="24dp"
+                android:background="@drawable/khung1">
+            </Button>
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

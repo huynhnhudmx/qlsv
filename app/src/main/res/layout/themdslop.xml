@@ -8,9 +8,8 @@
     <LinearLayout
         android:layout_width="412dp"
         android:layout_height="667dp"
-        android:background="#2052b69a"
-        android:orientation="vertical"
-        android:outlineSpotShadowColor="@color/black">
+        android:background="#2009215E"
+        android:orientation="vertical">
 
 
         <TableLayout
@@ -23,7 +22,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10px"
                 android:gravity="center"
-                android:text="Tạo tài khoản Giảng Viên"
+                android:text="THÊM DANH SÁCH LỚP"
                 android:textSize="60px"
                 android:textStyle="bold" />
 
@@ -34,15 +33,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="MSGV : "
+                    android:text="Mã lớp  : "
                     android:textSize="40px" />
 
                 <EditText
-                    android:id="@+id/tch_add_msgv"
+                    android:id="@+id/tch_add_mlop"
                     android:layout_width="250dp"
                     android:layout_height="50dp"
-
-                    android:hint="VD : 21CTHA0000" />
+                    android:hint="VD : CCNTT21A" />
             </TableRow>
 
             <TableRow
@@ -52,14 +50,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Mật Khẩu : "
+                    android:text="Tên lớp : "
                     android:textSize="40px" />
 
                 <EditText
-                    android:id="@+id/tch_add_mkdn"
+                    android:id="@+id/tch_add_tenlop"
                     android:layout_width="250dp"
                     android:layout_height="50dp"
-                    android:hint="từ 8 ký tự" />
+                    android:hint="Công nghệ thông tin" />
             </TableRow>
 
             <TableRow
@@ -69,50 +67,15 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Họ và tên : "
+                    android:text="Mã khoa : "
                     android:textSize="40px" />
 
                 <EditText
-                    android:id="@+id/tch_add_hoten"
+                    android:id="@+id/tch_add_makhoa"
                     android:layout_width="250dp"
                     android:layout_height="50dp"
-                    android:hint="HỌ VÀ TÊN SINH VIÊN" />
+                    android:hint="KTH" />
             </TableRow>
-
-            <TableRow
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Trnh độ: "
-                    android:textSize="40px" />
-
-                <EditText
-                    android:id="@+id/tch_add_trinhdo"
-                    android:layout_width="250dp"
-                    android:layout_height="50dp"
-                    android:hint="Trnh độ giảng viên" />
-            </TableRow>
-
-            <TableRow
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Mã lớp : "
-                    android:textSize="40px" />
-
-                <EditText
-                    android:id="@+id/tch_add_malopp"
-                    android:layout_width="250dp"
-                    android:layout_height="50dp"
-                    android:hint="CCNTT21A" />
-            </TableRow>
-
 
 
             <LinearLayout
@@ -121,18 +84,21 @@
                 android:gravity="center">
 
                 <Button
-                    android:id="@+id/btn_tch_add"
+                    android:id="@+id/btn_themlop"
                     android:layout_width="150dp"
                     android:layout_height="70dp"
+                    android:backgroundTint="#6D8003"
                     android:text="Thêm" />
+
                 <Space
                     android:layout_width="20dp"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content" />
 
                 <Button
-                    android:id="@+id/btn_tch_cancel"
+                    android:id="@+id/btn_tch_canceldslop"
                     android:layout_width="150dp"
                     android:layout_height="70dp"
+                    android:backgroundTint="#6D8003"
                     android:text="Hủy" />
             </LinearLayout>
         </TableLayout>

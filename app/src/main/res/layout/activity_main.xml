@@ -4,39 +4,52 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/custom1"
-    android:backgroundTint="@null"
+    android:background="#F1DBA5"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/profile_image"
-        android:layout_width="122dp"
-        android:layout_height="113dp"
-        android:layout_marginLeft="130dp"
-        android:layout_marginTop="100dp"
-        android:src="@drawable/img"
-         />
+        android:layout_width="95dp"
+        android:layout_height="93dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/img" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="252dp"
+        android:layout_height="88dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:text="CHÀO MỪNG ĐẾN VỚI HỆ THỐNG QUẢN LÝ SINH VIÊN CỦA TRƯỜNG "
+        android:textAlignment="center"
+        android:textColor="#7D3EF1"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="252dp"
-        android:layout_height="69dp"
-        android:layout_marginLeft="100dp"
-        android:layout_marginTop="100dp"
-        android:text="CHÀO MỪNG ĐẾN VỚI HỆ THỐNG QUẢN LÝ SINH VIÊN CỦA TRƯỜNG "
-        android:textSize="50px"
+        android:layout_height="88dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-200dp"
+        android:text="TRƯỜNG CAO ĐẲNG KINH TẾ - KỸ THUẬT CẦN THƠ "
+        android:textAlignment="center"
+        android:textColor="#FA0E9B"
+        android:textSize="24sp"
         android:textStyle="bold" />
 
     <Button
         android:id="@+id/button1"
         android:layout_width="200dp"
-        android:layout_height="58dp"
+        android:layout_height="82dp"
         android:layout_marginLeft="100dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="150dp"
         android:background="@drawable/custom3"
-        android:text="Bấm vào đây"
+        android:text="KÍCH HOẠT HỆ THỐNG"
+        android:textColor="#D50202"
         android:textSize="24sp"
         android:textStyle="bold"
         app:backgroundTint="@null" />

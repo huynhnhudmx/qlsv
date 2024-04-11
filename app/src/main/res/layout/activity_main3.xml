@@ -11,7 +11,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#673AB7"
+        android:background="#B695F6"
         android:alpha="0.5">
 
 
@@ -47,7 +47,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:alpha="0.7"
-                android:text="thông tin cá nhân" />
+                android:text="THÔNG TIN CÁ NHÂN" />
 
             <View
                 android:layout_width="wrap_content"
@@ -58,6 +58,8 @@
                 android:layout_height="wrap_content"
                 android:alpha="0.7"
                 android:text="Tên đăng nhập"
+                android:textAlignment="viewStart"
+                android:textSize="20sp"
                 android:textStyle="bold" />
 
             <EditText
@@ -76,22 +78,51 @@
                 android:layout_height="wrap_content"
                 android:alpha="0.7"
                 android:text="Nhập mật khẩu"
+                android:textSize="20sp"
                 android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/edtpw"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:drawableEnd="@drawable/vis"
-                android:hint="Password"/>
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:paddingRight="10dp"
+                android:longClickable="false" >
+            </EditText>
+
+
+            <LinearLayout
+                android:layout_marginLeft="300dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:id="@+id/pw_hide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/visoff"
+                    />
+                <ImageButton
+                    android:id="@+id/pw_show"
+                    android:layout_marginLeft="-50dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/vis"/>
+
+            </LinearLayout>
+
 
             <View
+
                 android:layout_width="wrap_content"
                 android:layout_height="10dp" />
 
             <com.google.android.material.button.MaterialButton
+                android:id="@+id/buttondn"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
+                android:background="#673AB7"
+                app:backgroundTint="@null"
                 android:text="ĐĂNG NHẬP"
                 app:cornerRadius="32dp"/>
 
